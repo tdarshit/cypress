@@ -1,0 +1,19 @@
+{
+  "name": "cypressautomationpoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cypress run", 
+    "chromeTest": "npm run test -- --browser chrome",
+    "dashboardViewRun" : "npm run test -- --record --key adfae215-ab7d-47a7-b6f4-fc7e2ade8f41 --browser chrome",
+    "mochaReporeViewRun": "npm run test -- --reporter mochawesome"
+  },
+  "author": "Darshit Thakkar",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.5.0",
+    "mocha": "^9.1.2",
+    "mochawesome": "^6.3.1"
+  }
+}

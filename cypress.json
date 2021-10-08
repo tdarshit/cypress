@@ -1,0 +1,9 @@
+{
+  "pageLoadTimeout": 30000,
+  "env": {
+    "qaurl": "https://qa.platform.devacaalpha.com/auth/login"
+  },
+  "projectId": "xwt1cj",
+  "reporter":"mochawesome"
+  
+}
