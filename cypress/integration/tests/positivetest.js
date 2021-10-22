@@ -29,6 +29,13 @@ describe('Cypress POC', function()
        
     })
 
+    it('verify summary view card count', function(){
+        selectClientPage.clickOnTenantName('010ct');
+        dashboardPage.verifyPageHeader();
+        dashboardPage.verifySummaryCardCount(2);
+       
+    })
+
   
 
 })

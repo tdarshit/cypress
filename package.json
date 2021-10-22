@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/cypress run", 
-    "chromeTest": "npm run test -- --browser chrome",
-    "dashboardViewRun" : "npm run test -- --record --key adfae215-ab7d-47a7-b6f4-fc7e2ade8f41 --browser chrome",
-    "mochaReporeViewRun": "npm run test -- --reporter mochawesome"
+    "test": "./node_modules/.bin/cypress run",
+    "chromeTest": "npm run test --browser chrome",
+    "edgetest": "npm run test --browser edge",
+    "dashboardViewRun": "npm run test -- --record --key adfae215-ab7d-47a7-b6f4-fc7e2ade8f41 --browser chrome",
+    "mochaReportViewRun": "npm run test --record --sepc \"cypress//integration//tests/*\" --reporter mochawesome"
   },
   "author": "Darshit Thakkar",
   "license": "ISC",
