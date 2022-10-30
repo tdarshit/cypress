@@ -1,4 +1,3 @@
-/// <reference types="Cypress" />
 import LoginPage from "../../support/pages/LoginPage"
 import SelectClientPage from "../../support/pages/SelectClientPage";
 import DashboardPage from "../../support/pages/DashboardPage";
